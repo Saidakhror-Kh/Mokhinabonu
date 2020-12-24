@@ -1,0 +1,78 @@
+*,h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-weight: 400;
+    background: #fff;
+    background:url('../images/bg_01.jpg');
+    
+}
+.container{
+    margin: auto;
+}
+.row{
+    padding-top:100px;
+}
+.container .col-xl-4{
+    margin-bottom: 80px;
+    justify-content: space-around;
+    align-self: center;
+}
+.container .col-xl-4 img:hover{
+    border: 5px solid white;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+a:hover{
+    background: rgba(255, 255, 255, 0.589);
+    color: black;
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+.reason{
+    width: 1000px;
+    margin: auto;
+}
+.reason h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gen_btn{
+    margin: 100px auto;
+    background: #fff;
+    padding: 12px 20px;
+    justify-content: center;
+}
+.answer{
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.712);
+}
